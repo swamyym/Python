@@ -6,26 +6,26 @@ Created on Mon Dec 19 18:01:44 2016
 """
 
 import re
-def nondot():   
+def nondot():
     ln = "From: swamy.ymln@gmail.com Sub: RegEx"
-    
+
     y = re.findall('^From: .*@([^.]*)',ln)
-    
+
     print(y)
 
-#nondot()
+nondot()
 
-def anychar():   
+def anychar():
     ln = "From: swamy.ymln@gmail.com Sub: RegEx"
-    
+
     y = re.findall('^From: .*@(.*)',ln)
-    
+
     print(y)
 #anychar()
 
 x = 'From: Using the : character'
 y = re.findall('^F.+:', x)
-print(y)
+#print(y)
 
 def sumn():
     total=0
@@ -43,10 +43,10 @@ def sumn():
         ls = sum(i)
         total=total+ls
     print(total)
-    
+
 #sumn()
 #noprimes = [j for i in range(2, 8) for j in range(i*2, 50, i)]
 #print(noprimes)
-anychar()
-nondot()
+#anychar()
+#nondot()
 

@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jan 15 19:58:30 2017
+
+@author: swamy
+"""
+
+import datetime
+
+i=int(input("enter year"))
+j= int(input("enter month"))
+k= int(input("enter day"))
+
+today=datetime.datetime(i,j,k)
+
