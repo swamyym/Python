@@ -1,5 +1,7 @@
 
 #horizontal and vertical lines
+#This script calculates the number of squares given square size and number of missing places and places where the lines are missing.
+
 
 square_size = int(input("enter a number between 4 and 20 inclusive: "))
 #square_size = 4
